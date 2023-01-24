@@ -1,5 +1,4 @@
 def win_prob(rolls, faces):
-    probability = 0.0
     print("Rolls: ", rolls)
     print("Die faces: ", faces)
     rolls_list = rolls.split()

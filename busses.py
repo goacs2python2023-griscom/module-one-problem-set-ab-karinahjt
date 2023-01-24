@@ -2,7 +2,7 @@
 
 def bus(s):
     if (type(s) != int) or (s<=0):
-        print("Error: provide the number of students as integer > 0")
+        print("Error")
         return
     if s % 52 != 0:
         print((int(s/52))+1)

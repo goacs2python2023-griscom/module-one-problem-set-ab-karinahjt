@@ -3,7 +3,7 @@
 # Write a Python function that computes the amount of money you raised. 
 def moneyEarned(a):
   if (type(a) != int) or (a<0):
-        return "Error: provide the number of tickets as integer >= 0"
+        return "Error"
   else:
     return a*5-50
  
